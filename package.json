@@ -1,11 +1,15 @@
 {
-  "name": "turbowarp-relay",
+  "name": "turbowarp-cloud-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "WebSocket server for TurboWarp Cloud Lists and Cloud Rooms extensions",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "ws": "^8.16.0"
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
